@@ -36,24 +36,32 @@ Segmentation Criteria: The customers were segmented based on several criteria:
 3. Behavioral: Segmentation by subscription duration and revenue to understand customer engagement and value.
 
 ## Analysis and Results
-Number of customers by subscription pattern, year and region
+### Number of customers by subscription pattern, year and region
+
 •	East region has the highest number of customers which is 8.488, had 5,122 in year 2022 and 3366 in 2023.Most of the customers were on basic subscription pattern.
+
 •	The west region has the lowest which is 8,420(5,038 in 2022 and 3,382 in 2023).
+
 •	It was observed that they was no customer that subscribed to any subscription pattern in quarter 4  of year 2023.
-Total Revenue by year subscription type and region
+
+### Total Revenue by year subscription type and region
 
 •	Total revenue made in year 2022 was 40,538,438, while in 2023 the total revenue made was 27,001, 737.The percentage decrease in revenue from 2022 to 2023 is 33.39%.
          
 •	It was observed that in year 2022, Basic subscription has the highest Revenue of 20,332,506, which were from the east and north region (10,242,555 and 10,089,951 Respectively).
+
 •	Standard subscription pattern has the lowest of 10,079,132 which is from the west region.
 
 •	In year 2023 the revenue dropped to 13,444,229 in the basic subscription pattern type in east and north region (6,716,208 and 6,723,021) Respectively.
+
 •	Premium subscription type has the lowest revenue of 6,772,264 from the south region.
+
 •	It was also observed that in year 2022 quarter 2 and 2023 quarter 3 east regions there was no revenue from the quarters.it also occurred in quarter 4 of 20022 from premium subscription type in south region.
+
 •	In quarter 4 of year 2023 there was no revenue from the whole subscription type and region.
 
 
-## Tools
+## Tools Used
 
 - Excel - Data cleaniing and creating of pivot tables
 - postgresql - Data Analytics
@@ -64,5 +72,22 @@ Total Revenue by year subscription type and region
 
 1.	Removed duplicate rows .
 2.	standardized product names for consistent analysis across the dataset.
+
+
+## Recommendations
+
+- Retention Campaigns for At-Risk Customers: Implement retention strategies (e.g., loyalty rewards, targeted offers) for customers in. Personalized emails could be sent after 6 months of subscription to encourage renewal.
+
+- Upselling Opportunities: Focus on upselling Basic subscribers who show potential for higher engagement,. Offering limited-time discounts to upgrade to Premium could incentivize longer subscriptions.
+
+- Targeted Marketing: Direct marketing efforts to the East region to address the high churn rate among Basic subscribers. Offering better customer support or incentives like a free trial extension may reduce early cancellations.
+
+
+## Conclusion
+
+This customer segmentation analysis has provided valuable insights into customer behavior across different regions and subscription types. The segmentation reveals patterns that can be leveraged to improve marketing strategies, reduce churn, and increase customer lifetime value.
+
+
+
 
 
