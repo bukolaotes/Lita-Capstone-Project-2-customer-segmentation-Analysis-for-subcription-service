@@ -1,4 +1,4 @@
-# Customer SegmentationAnalysis for Subcription Service
+# Customer Segmentation Analysis for Subcription Service
 
  ## Introduction
 
@@ -195,7 +195,7 @@ SELECT
 ```
  ![image](https://github.com/user-attachments/assets/35333f08-8f32-4954-ae24-396488b57075)
 
------------find the total number of active and canced suelbscriptions-----
+-----------find the total number of active and canced subscriptions-----
 
 ```
 
@@ -210,6 +210,8 @@ SELECT
 	  customer_data;
 
 ```
+![image](https://github.com/user-attachments/assets/0a363322-04a8-4a0c-a552-5952df8dcd6e)
+
 
 ## Analysis and Results
 ### Number of customers by subscription pattern, year and region
