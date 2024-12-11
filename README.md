@@ -35,6 +35,28 @@ Segmentation Criteria: The customers were segmented based on several criteria:
 
 3. Behavioral: Segmentation by subscription duration and revenue to understand customer engagement and value.
 
+
+## Exploratory Data Analysis (EDA)
+
+o retrieve the total number of customers from each region.
+
+o find the most popular subscription type by the number of customers.
+
+o find customers who canceled their subscription within 6 months.
+
+o calculate the average subscription duration for all customers.
+
+o find customers with subscriptions longer than 12 months.
+
+o calculate total revenue by subscription type.
+
+o find the top 3 regions by subscription cancellations.
+
+o find the total number of active and canceled subscriptions.
+
+
+
+
 ## Analysis and Results
 ### Number of customers by subscription pattern, year and region
 
