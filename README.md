@@ -109,6 +109,8 @@ LIMIT 1
 
 ```
 
+![image](https://github.com/user-attachments/assets/dab70d7e-d782-413e-b182-0c5db22ecb69)
+
 
 -------- find customers who canceled their subscription within 6 months-----
 
