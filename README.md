@@ -36,6 +36,20 @@ Segmentation Criteria: The customers were segmented based on several criteria:
 3. Behavioral: Segmentation by subscription duration and revenue to understand customer engagement and value.
 
 
+## Tools Used
+
+- Excel - Data cleaniing and creating of pivot tables
+- postgresql - Data Analytics
+- Power BI - Creating of reports
+
+## Data Cleaning/Prepearation
+
+
+1.	Removed duplicate rows .
+2.	standardized product names for consistent analysis across the dataset.
+
+
+
 ## Exploratory Data Analysis (EDA)
 
 o retrieve the total number of customers from each region.
@@ -214,6 +228,7 @@ SELECT
 
 
 ## Analysis and Results
+
 ### Number of customers by subscription pattern, year and region
 
 •	East region has the highest number of customers which is 8.488, had 5,122 in year 2022 and 3366 in 2023.Most of the customers were on basic subscription pattern.
@@ -238,18 +253,6 @@ SELECT
 
 •	In quarter 4 of year 2023 there was no revenue from the whole subscription type and region.
 
-
-## Tools Used
-
-- Excel - Data cleaniing and creating of pivot tables
-- postgresql - Data Analytics
-- Power BI - Creating of reports
-
-## Data Cleaning/Prepearation
-
-
-1.	Removed duplicate rows .
-2.	standardized product names for consistent analysis across the dataset.
 
 
 ## Recommendations
