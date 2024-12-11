@@ -193,7 +193,8 @@ SELECT
 	LIMIT 3;
 
 ```
- 
+ ![image](https://github.com/user-attachments/assets/35333f08-8f32-4954-ae24-396488b57075)
+
 -----------find the total number of active and canced suelbscriptions-----
 
 ```
