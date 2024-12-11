@@ -126,6 +126,7 @@ SELECT
 
 
 ```
+![image](https://github.com/user-attachments/assets/d0da0f85-4a7d-417e-bb78-e350e0ef6dce)
 
 
 ---- calculate the average subscription duration for all customers. --
