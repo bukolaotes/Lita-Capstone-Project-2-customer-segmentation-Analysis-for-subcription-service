@@ -173,6 +173,9 @@ SELECT
    GROUP BY subscriptionType
 
 ```
+![image](https://github.com/user-attachments/assets/063f61a6-325f-41af-a43a-494b6386baaa)
+
+
 
 ----------find the top 3 regions by subscription cancellations------
 
