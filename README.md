@@ -90,6 +90,9 @@ FROM Customer_data
 GROUP BY Region
 
 ```
+![image](https://github.com/user-attachments/assets/3dcf3a1a-64e8-497f-9959-c797c6a87e07)
+
+
 
 -------- find the most popular subscription type by the number of customers----
 
