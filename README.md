@@ -70,11 +70,18 @@ Create table customer_data(CustomerID integer not null,
 
 ```
 
+
+```
+
 SELECT * FROM customer_data
 
+```
 
 
 ------ retrieve the total number of customers from each region----
+
+
+```
 
 SELECT
   Region,
@@ -82,6 +89,7 @@ SELECT
 FROM Customer_data
 GROUP BY Region
 
+```
 
 -------- find the most popular subscription type by the number of customers----
 SELECT
