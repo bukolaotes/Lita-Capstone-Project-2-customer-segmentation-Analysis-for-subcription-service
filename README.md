@@ -92,6 +92,10 @@ GROUP BY Region
 ```
 
 -------- find the most popular subscription type by the number of customers----
+
+
+```
+
 SELECT
   SubscriptionType,
   COUNT(*) AS customer_count
@@ -100,8 +104,12 @@ GROUP BY SubscriptionType
 ORDER BY customer_count DESC
 LIMIT 1
 
+```
+
+
 -------- find customers who canceled their subscription within 6 months-----
 
+```
 SELECT
    CustomerID,
    SubscriptionStart,
@@ -111,7 +119,13 @@ SELECT
    AND subscriptionEnd <=
  SubscriptionStart + INTERVAL '6 months';
 
+
+```
+
+
 ---- calculate the average subscription duration for all customers. --
+
+```
 
 SELECT
    AVG( SubscriptionEnd  -
@@ -119,8 +133,13 @@ SubscriptionStart) AS
 avg_subscription_duration
 FROM customer_data
 
- 
+```
+
+
 -------find customers with subscriptions longer than 12 months----
+
+```
+
 SELECT
 
  CustomerID,
@@ -132,8 +151,12 @@ SELECT
  SubscriptionStart + INTERVAL '12 months';
 
 
+```
+
 
  -------- calculate total revenue by subscription type-----
+
+```
 
  SELECT
    SubscriptionType,
@@ -142,7 +165,12 @@ SELECT
    customer_data
    GROUP BY subscriptionType
 
+```
+
 ----------find the top 3 regions by subscription cancellations------
+
+
+```
 
 SELECT
     Region,
@@ -154,8 +182,11 @@ SELECT
 	ORDER BY cancellation_count DESC
 	LIMIT 3;
 
+```
  
 -----------find the total number of active and canced suelbscriptions-----
+
+```
 
 SELECT
    COUNT(*) FILTER (WHERE
@@ -167,6 +198,7 @@ SELECT
 	  FROM
 	  customer_data;
 
+```
 
 ## Analysis and Results
 ### Number of customers by subscription pattern, year and region
