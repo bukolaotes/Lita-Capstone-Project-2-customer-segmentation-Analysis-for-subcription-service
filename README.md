@@ -57,18 +57,18 @@ o find the total number of active and canceled subscriptions.
 
 ## Data Analytics
 
-`
+```
 Create table customer_data(CustomerID integer not null,
-CustomerName varchar(50),
-Region varchar(50),
-SubscriptionType varchar(50),
-SubscriptionStart date,
-SubscriptionEnd date,
-Canceled boolean,
-Revenue integer
+                           CustomerName varchar(50),
+                           Region varchar(50),
+                           SubscriptionType varchar(50),
+                           SubscriptionStart date,
+                           SubscriptionEnd date,
+                           Canceled boolean,
+                           Revenue integer
 );
 
-`
+```
 
 SELECT * FROM customer_data
 
