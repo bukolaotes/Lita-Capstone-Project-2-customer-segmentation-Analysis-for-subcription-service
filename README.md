@@ -140,6 +140,7 @@ avg_subscription_duration
 FROM customer_data
 
 ```
+![image](https://github.com/user-attachments/assets/e4a08653-687d-47b5-b12e-e4e47d3a7228)
 
 
 -------find customers with subscriptions longer than 12 months----
